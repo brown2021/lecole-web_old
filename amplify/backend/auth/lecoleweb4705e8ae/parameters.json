@@ -29,7 +29,7 @@
         "email"
     ],
     "userpoolClientLambdaRole": "lecole4705e8ae_userpoolclient_lambda_role",
-    "userpoolClientSetAttributes": false,
+    "userpoolClientSetAttributes": true,
     "sharedId": "4705e8ae",
     "resourceName": "lecoleweb4705e8ae",
     "authSelections": "identityPoolAndUserPool",
@@ -45,9 +45,21 @@
             "Arn"
         ]
     },
-    "useDefault": "default",
-    "userPoolGroupList": [],
+    "useDefault": "manual",
+    "userPoolGroupList": [
+        "lecole"
+    ],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
-    "dependsOn": []
+    "dependsOn": [],
+    "thirdPartyAuth": true,
+    "authProviders": [],
+    "userPoolGroups": true,
+    "adminQueries": false,
+    "triggers": "{}",
+    "hostedUI": false,
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "permissions": []
 }

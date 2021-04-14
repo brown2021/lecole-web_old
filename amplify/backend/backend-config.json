@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "lecoleweb4705e8ae": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

@@ -11,5 +11,44 @@
       "StackId": "arn:aws:cloudformation:us-east-2:981823270915:stack/amplify-amplify74838c78760d4-staging-44536/4166b3c0-9cdc-11eb-b21a-06164577b6a6",
       "AmplifyAppId": "d3iv2mjp73x45t"
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lecoleweb-prod-10835-authRole",
+      "UnauthRoleArn": "arn:aws:iam::981823270915:role/amplify-lecoleweb-prod-10835-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::981823270915:role/amplify-lecoleweb-prod-10835-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-lecoleweb-prod-10835-deployment",
+      "UnauthRoleName": "amplify-lecoleweb-prod-10835-unauthRole",
+      "StackName": "amplify-lecoleweb-prod-10835",
+      "StackId": "arn:aws:cloudformation:us-east-2:981823270915:stack/amplify-lecoleweb-prod-10835/78e389b0-9cdf-11eb-b75f-0230bd8e0e32",
+      "AmplifyAppId": "d3iv2mjp73x45t"
+    }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lecoleweb-dev-10958-authRole",
+      "UnauthRoleArn": "arn:aws:iam::981823270915:role/amplify-lecoleweb-dev-10958-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::981823270915:role/amplify-lecoleweb-dev-10958-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-lecoleweb-dev-10958-deployment",
+      "UnauthRoleName": "amplify-lecoleweb-dev-10958-unauthRole",
+      "StackName": "amplify-lecoleweb-dev-10958",
+      "StackId": "arn:aws:cloudformation:us-east-2:981823270915:stack/amplify-lecoleweb-dev-10958/aabd60f0-9cdf-11eb-bc2c-064a3d3b91ae",
+      "AmplifyAppId": "d3iv2mjp73x45t"
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lecoleweb-test-11102-authRole",
+      "UnauthRoleArn": "arn:aws:iam::981823270915:role/amplify-lecoleweb-test-11102-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::981823270915:role/amplify-lecoleweb-test-11102-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-lecoleweb-test-11102-deployment",
+      "UnauthRoleName": "amplify-lecoleweb-test-11102-unauthRole",
+      "StackName": "amplify-lecoleweb-test-11102",
+      "StackId": "arn:aws:cloudformation:us-east-2:981823270915:stack/amplify-lecoleweb-test-11102/d0a3fc20-9cdf-11eb-92ad-020cb91688de",
+      "AmplifyAppId": "d3iv2mjp73x45t"
+    }
   }
 }
